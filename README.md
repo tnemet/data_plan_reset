@@ -1,2 +1,3 @@
 # data_plan_reset
-Reset data plan by sending SMS code to telecom provider
+Due to telecom provider restriction of download per session, I decided to automate process of renoval data limit by adding this script into OpenWrt system.
+It will collect info about data transfered trough specified connection and then send SMS code to telecom provide so data limit is reseted.
