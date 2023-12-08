@@ -8,9 +8,9 @@ limit=5
 used=$(vnstat --oneline | cut -d ';' -f 4)
 used_int=$(awk -v used="$used" 'BEGIN { printf "%.0f", used }')
 
-echo "rounded: $used_int" 
 echo "limit: $limit"
 echo "used: $used"
+echo "rounded: $used_int" 
 
 if [ $used_int -ge $limit ]
 then   
