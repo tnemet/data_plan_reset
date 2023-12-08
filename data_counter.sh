@@ -14,5 +14,6 @@ echo "rounded: $used_int"
 
 if [ $used_int -ge $limit ]
 then   
+#send SMS code
 echo "limit dosegnut!"
 fi
