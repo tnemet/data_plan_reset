@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #source: https://openwrt.org/docs/guide-user/advanced/sms-from-shell 
 # Modem device
 DEV=/dev/ttyUSB0
