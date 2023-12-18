@@ -1,0 +1,1 @@
+This is manual for installation and configuration of Zabbix server and agent on Openwrt (Espressobin)
